@@ -505,10 +505,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7867019028801973012}
   - component: {fileID: 7867019028801973035}
-  - component: {fileID: 7867019028801973034}
   - component: {fileID: -375697422785913989}
-  - component: {fileID: 1854124659582482159}
-  - component: {fileID: 4307766395870158519}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -547,24 +544,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &7867019028801973034
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7867019028801973033}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5342875873fdf184a9ae305c200aeb57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Accel: 0
-  Buoyancy: 0
-  spin: 0
-  a: 0
-  b: 0
-  c: 0
 --- !u!114 &-375697422785913989
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -583,39 +562,7 @@ MonoBehaviour:
   a: 0
   b: 0
   c: 0
---- !u!114 &1854124659582482159
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7867019028801973033}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40b2cb6663f58db40a5d84adc1a69cb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &4307766395870158519
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7867019028801973033}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3d6ad5697917db45a869541d16de311, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MainPropellerShaft: {fileID: 0}
-  TailPropellerShaft: {fileID: 0}
-  Buoyancy: 0
-  SpinPower: 0
-  c: 0
-  MainPropellerAcceleration: 0
-  TailPropellerAcceleration: 0
-  DecelerationRate: 0.9
-  HorizontalRecoveryRate: 0
+  d: 0
 --- !u!1 &7867019028895777823
 GameObject:
   m_ObjectHideFlags: 0
